@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="pmt Fahrenheit to c"/>
+        <attribute name="authors" value="Asus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 03:29:46 PM"/>
+        <attribute name="created" value="QXN1cztERVNLVE9QLUQ1RUg3TjI7MjAyNi0wMS0wNjswMzoxODozNCBQTTsyNzIw"/>
+        <attribute name="edited" value="QXN1cztERVNLVE9QLUQ1RUg3TjI7MjAyNi0wMS0wNjswMzoyOTo0NiBQTTsxOzI4MzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="celsius, Fahrenheit" type="Integer" array="False" size=""/>
+            <input variable="celsius"/>
+            <assign variable="fahrenheit" expression="(celsius * 9 / 5) + 32"/>
+            <output expression="&quot;Temperature in Fahrenheit =&quot;&amp; Fahrenheit" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
