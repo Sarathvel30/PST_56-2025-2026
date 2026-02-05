@@ -1,20 +1,19 @@
 public class polymorphism {
     public static void main(String[] args) {
-        polymorphism obj = new polymorphism();
-        obj.fun1(10);
-        obj.fun2(5.5);
-        obj.fun3("Hello");  
+        fun1(10);
         
     }
-    void fun1(int a){
+    static void fun1(int a){
         System.out.println("This is fun1 with int argument: " + a);
+        fun2(5.5);
         
 
     }
-    void fun2(double b){
-        System.out.println("This is fun1 with double argument: " + b);
+    static void fun2(double b){
+        System.out.println("This is fun2 with double argument: " + b);
+        fun3("Hello");
     }
-    void fun3(String c){
-        System.out.println("This is fun1 with String argument: " + c);
+    static void fun3(String c){
+        System.out.println("This is fun3 with String argument: " + c);
     }
 }
